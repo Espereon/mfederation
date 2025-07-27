@@ -1,7 +1,7 @@
 {
   "name": "@packages/build-config",
   "version": "1.0.0",
-  "main": "./src/index.ts",
+  "main": ".src/index.ts",
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-react": "^7.22.15",
@@ -10,6 +10,8 @@
     "@svgr/webpack": "^8.1.0",
     "@types/babel__core": "^7.20.3",
     "@types/node": "^20.8.3",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.11",
     "@types/webpack": "^5.28.3",
     "@types/webpack-bundle-analyzer": "^4.6.1",
     "@types/webpack-dev-server": "^4.7.2",
