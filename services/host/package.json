@@ -2,17 +2,11 @@
   "name": "host",
   "version": "1.0.0",
   "dependencies": {
-    "@packages/build-config": "*",
     "@packages/shared": "*",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
-    "@svgr/webpack": "^8.1.0",
-    "@types/webpack-bundle-analyzer": "^4.7.0",
-    "fork-ts-checker-webpack-plugin": "^9.0.0",
+    "@packages/build-config": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-refresh-typescript": "^2.0.9",
-    "react-router-dom": "^6.16.0",
-    "webpack-bundle-analyzer": "^4.9.1"
+    "react-router-dom": "^6.16.0"
   },
   "scripts": {
     "start": "webpack serve --env mode=development",

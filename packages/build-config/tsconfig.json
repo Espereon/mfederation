@@ -2,6 +2,7 @@
   "compilerOptions": {
     "outDir": "./dist/",
     "noImplicitAny": true,
+    "declaration": true,
     "module": "esnext",
     "target": "es5",
     "jsx": "react-jsx",
@@ -11,7 +12,7 @@
     "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*", "../build-config/src/*"]
     },
     "composite": true
   },

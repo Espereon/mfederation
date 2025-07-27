@@ -1,7 +1,8 @@
 {
   "name": "@packages/build-config",
   "version": "1.0.0",
-  "main": ".src/index.ts",
+  "types": "src/index.d.ts",
+  "main": "src/index.ts",
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-react": "^7.22.15",

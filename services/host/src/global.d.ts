@@ -6,6 +6,21 @@ declare module "*module.scss" {
   export = classNames;
 }
 
+declare module "@packages/build-config" {
+  import webpack from "webpack";
+  export interface BuildMode {}
+  export interface BuildPaths {}
+  export interface BuildOptions {}
+  export interface BuildPlatform {}
+  export function buildWebpack(options: {
+    port: number;
+    mode: BuildMode;
+    paths: BuildPaths;
+    analyzer: boolean;
+    platform: BuildPlatform;
+  }): webpack.Configuration;
+}
+
 declare module "*.jpg";
 declare module "*.jpeg";
 declare module "*.png";
